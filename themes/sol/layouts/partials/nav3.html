@@ -6,10 +6,10 @@
                 <ul class="ul-h nav-menu nav-menu-left">
 
 
-                  <li class="hidden">
+                  <li>
                     <a href="{{ if .IsHome }}/#hero{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
                   </li>
-
+                  <li><a href="#hero" class="btn-scroll">Home</a></li>
                   {{ range .Site.Menus.prepend }}
                     <li>
                       <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
@@ -18,7 +18,7 @@
 
                   {{ if .Site.Params.services.enable }}
                     <li>
-                      <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
+                      <a href="#services-anchor" class="btn-scroll">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
                     </li>
                   {{ end }}
 
@@ -42,7 +42,7 @@
 
                   {{ if .Site.Params.contact.enable }}
                     <li>
-                      <a class="page-scroll" href="{{ .Site.BaseURL }}#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
+                      <a class="btn-scroll" href="#contact-anchor">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
                     </li>
                   {{ end }}
 
@@ -66,6 +66,7 @@
             </div>
             <div class="col-md-2">
                 <div class="hero-logo">
+
                     <div class="logo-img">
                         <img src="img/assets/new-logo-light.png" class="logo-white" alt="#">
                         <img src="img/assets/new-logo-color.png" class="logo-black" alt="#">
