@@ -4,12 +4,64 @@
         <div class="row">
             <div class="col-md-5">
                 <ul class="ul-h nav-menu nav-menu-left">
-                    <li><a href="#hero" class="btn-scroll">Home</a></li>
-                    <li><a href="#services-anchor" class="btn-scroll">Services</a></li>
-                    <li><a href="#portfolio-anchor" class="btn-scroll">Gallery</a></li>
-                    <li><a href="#team-anchor" class="btn-scroll">Team</a></li>
-                    <li><a href="#contact-anchor" class="btn-scroll">Contact</a></li>
-                    <li><a href="blog-boxed-3.html" class="btn-scroll">Blog</a></li>
+
+
+                  <li class="hidden">
+                    <a href="{{ if .IsHome }}/#hero{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
+                  </li>
+
+                  {{ range .Site.Menus.prepend }}
+                    <li>
+                      <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
+                    </li>
+                  {{ end }}
+
+                  {{ if .Site.Params.services.enable }}
+                    <li>
+                      <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
+                    </li>
+                  {{ end }}
+
+                  {{ if .Site.Params.portfolio.enable }}
+                    <li>
+                      <a class="page-scroll" href="{{ .Site.BaseURL }}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
+                    </li>
+                  {{ end }}
+
+                  {{ if .Site.Params.about.enable }}
+                    <li>
+                      <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+                    </li>
+                  {{ end }}
+
+                  {{ if .Site.Params.team.enable }}
+                    <li>
+                      <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
+                    </li>
+                  {{ end }}
+
+                  {{ if .Site.Params.contact.enable }}
+                    <li>
+                      <a class="page-scroll" href="{{ .Site.BaseURL }}#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
+                    </li>
+                  {{ end }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </ul>
             </div>
             <div class="col-md-2">
@@ -60,7 +112,7 @@
                 <li><a href="blog-boxed-3.html" class="btn-scroll">Blog</a></li>
             </ul>
         </div>
-  
+
     </nav>
 
 </nav>
