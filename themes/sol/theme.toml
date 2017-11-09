@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Sol"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+description = "A onepage theme for the SolStolen Website"
+homepage = "http://example.com/"
+tags = ["portfolio", "company", "contact form", "timeline", "google analytics", "piwik"]
+features = []
+min_version = "0.30.2"
+
+[author]
+  name = "George Neophytou"
+  homepage = ""
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

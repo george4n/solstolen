@@ -1,0 +1,29 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ .Hugo.Generator }}
+    <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
+    <link href="img/assets/favicon.png" rel="icon" type="image/png">
+    {{ "<!-- Stylesheets -->" | safeHTML }}
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/backgrounds.css" rel="stylesheet" type="text/css">
+    {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+    {{ end }}
+    {{ "<!-- Custom Fonts -->" | safeHTML }}
+    {{ with not .Site.Params.disableFonts }}
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,800%7cNunito+Sans:200,300,400" rel="stylesheet">
+    <link href="fonts/IonIcons/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="fonts/ElegantIcons/style.css" rel="stylesheet" type="text/css">
+    <link href="fonts/PeaceSans/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="fonts/IconsMind/stylesheet.css" rel="stylesheet" type="text/css">
+    {{ end }}
+    {{ with .Site.Params.favicon }}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
+    <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
+    {{ end }}
+</head>

@@ -1,0 +1,21 @@
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ "js/jquery.js"| absURL }}"></script>
+
+{{ "<!-- Plugins Core -->" | safeHTML }}
+<script src="{{ "js/plugins.js"| absURL }}"></script>
+
+{{ "<!-- Scripts -->" | safeHTML }}
+<script src="{{ "js/scripts.js"| absURL }}"></script>
+
+{{ "<!-- Contact Form -->" | safeHTML }}
+<script src="{{ "php/contact-form/assets/js/contact.js"| absURL }}"></script>
+
+{{ template "_internal/google_analytics_async.html" . }}
+
+{{ if .Site.Params.analytics.piwik }}
+  {{ partial "_analytics/piwik.html" . }}
+{{ end }}
+
+{{ range .Site.Params.custom_js }}
+  <script src="{{ . | absURL }}"></script>
+{{ end }}

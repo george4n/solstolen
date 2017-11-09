@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  {{ partial "head.html" . }}
+  {{ partial "preloader.html" . }}
+
+  <body>
+    {{ partial "nav2.html" . }}
+    {{ partial "hero2.html" . }}
+
+    {{ if .Site.Params.about.enable }}
+      {{ partial "about2.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.about.enable }}
+      {{ partial "features.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.portfolio.enable }}
+      {{ partial "portfolio2.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.services.enable }}
+      {{ partial "services2.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.services.enable }}
+      {{ partial "numbers.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.team.enable }}
+      {{ partial "team2.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.team.enable }}
+      {{ partial "testimonials.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.contact.enable }}
+      {{ partial "contact2.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer2.html" . }}
+    {{ end }}
+
+    {{ partial "js.html" . }}
+  </body>
+</html>
