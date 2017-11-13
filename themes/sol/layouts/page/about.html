@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
   {{ partial "head.html" . }}
-
 <body>
     {{ partial "blocks/nav/transparent-white.html" . }}
     {{ partial "sections/hero-pages.html" . }}
@@ -23,13 +22,7 @@
     {{ partial "sections/clients.html" . }}
     {{ partial "sections/seperator.html" . }}
     {{ partial "sections/contact.html" . }}
-
-
-
-
-    {{ if .Site.Params.footer.enable }}
-      {{ partial "footer2.html" . }}
-    {{ end }}
+    {{ partial "blocks/footer/footer-black-2.html" . }}
     {{ partial "js.html" . }}
   </body>
 </html>
