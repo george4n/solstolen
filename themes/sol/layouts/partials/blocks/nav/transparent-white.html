@@ -1,0 +1,70 @@
+{{ "<!-- TRANSPARENT WHITE NAV BAR -->" | safeHTML }}
+<nav class="navbar sticky transparent-white">
+    <div class="container fluid-container hidden-md">
+        <div class="row">
+            <div class="col-md-5">
+                <ul class="ul-h nav-menu nav-menu-left">
+                  <li><a href="{{ i18n "home-link" | absLangURL  }}" class="btn-scroll">{{ i18n "home"}}</a></li>
+                  <li><a href="{{ i18n "about-link" | absLangURL }}" class="btn-scroll">{{ i18n "about"}}</a></li>
+                  <li><a href="{{ i18n "services-link" | absLangURL }}" class="btn-scroll">{{ i18n "services"}}</a></li>
+                  <li><a href="{{ i18n "jobs-link" | absLangURL }}" class="btn-scroll">{{ i18n "jobs"}}</a></li>
+                  <li><a href="{{ i18n "pricing-link" | absLangURL }}" class="btn-scroll">{{ i18n "pricing"}}</a></li>
+                  <li><a href="{{ i18n "blog-link" | absLangURL }}" class="btn-scroll">{{ i18n "blog"}}</a></li>
+                  <li><a href="{{ i18n "contact-link" | absLangURL }}" class="btn-scroll">{{ i18n "contact"}}</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <div class="hero-logo">
+                    <div class="logo-img">
+                        <img src="{{ "img/assets/new-logo-light.png" | absURL }}" class="logo-white" alt="logo">
+                        <img src="{{ "img/assets/new-logo-color.png" | absURL }}" class="logo-black" alt="logo">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <ul class="ul-h nav-menu nav-social nav-social-right">
+                    <li><a href="https://www.instagram.com/"><i class="social_instagram"></i>Instagram</a></li>
+                    <li><a href="https://www.facebook.com/"><i class="social_facebook"></i>Facebook</a></li>
+                    <!--<li><a href="https://www.twitter.com/"><i class="social_twitter"></i>Twitter</a></li>-->
+                    <!--<li><a href="https://www.vimeo.com/"><i class="social_vimeo"></i>Vimeo</a></li>-->
+                    <li><a href="/"><i class="social_vimeo"></i>EN</a></li>
+                    <li><a href="/sv/"><i class="social_vimeo"></i>SV</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {{ "<!-- Collapsed Navigation Bar -->" | safeHTML }}
+    <nav class="navbar navbar-collaps">
+        <div class="container fluid-container">
+            <div class="collapsed-hero-logo">
+                <div class="logo-img">
+                    <img src="{{ "img/assets/new-logo-color.png" | absURL }}" alt="logo">
+                </div>
+            </div>
+            <div class="hamburger-menu">
+                <button type="button" class="hamburger-btn clicked">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                </button>
+            </div>
+        </div>
+
+        {{ "<!-- Collapsed Dropdown -->" | safeHTML }}
+        <div class="collapsed-dropdown">
+            <ul class="ul-v">
+              <li><a href="{{ i18n "home-link" | absLangURL  }}" class="btn-scroll">{{ i18n "home"}}</a></li>
+              <li><a href="{{ i18n "about-link" | absLangURL }}" class="btn-scroll">{{ i18n "about"}}</a></li>
+              <li><a href="{{ i18n "services-link" | absLangURL }}" class="btn-scroll">{{ i18n "services"}}</a></li>
+              <li><a href="{{ i18n "jobs-link" | absLangURL }}" class="btn-scroll">{{ i18n "jobs"}}</a></li>
+              <li><a href="{{ i18n "pricing-link" | absLangURL }}" class="btn-scroll">{{ i18n "pricing"}}</a></li>
+              <li><a href="{{ i18n "blog-link" | absLangURL }}" class="btn-scroll">{{ i18n "blog"}}</a></li>
+              <li><a href="{{ i18n "contact-link" | absLangURL }}" class="btn-scroll">{{ i18n "contact"}}</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+</nav>

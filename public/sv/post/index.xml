@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SolStolen SV</title>
+    <link>https://solstolen.eu/sv/post/</link>
+    <description>Recent content in Posts on SolStolen SV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright SV</copyright>
+    <lastBuildDate>Mon, 05 Dec 2016 12:29:19 +0100</lastBuildDate>
+    
+	<atom:link href="https://solstolen.eu/sv/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduktion</title>
+      <link>https://solstolen.eu/sv/post/introduction/</link>
+      <pubDate>Mon, 05 Dec 2016 12:29:19 +0100</pubDate>
+      
+      <guid>https://solstolen.eu/sv/post/introduction/</guid>
+      <description>En rubrik Text om ämnet ett.</description>
+    </item>
+    
+  </channel>
+</rss>
