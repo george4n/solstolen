@@ -1,11 +1,49 @@
 # Site settings
-baseurl = "https://example.org/"
-languageCode = "en-us"
+#baseurl = "/public"
+baseurl = "https://solstolen.eu"
+languageCode = "en"
 title = "Solstolen"
+copyright = "Everything is mine"
 #theme = "hugo-agency-theme"
 theme = "sol"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
+
+#### BEGIN LANG
+
+DefaultContentLanguage = "en"
+
+
+
+
+[Languages]
+[Languages.en]
+copyright = "Copyright EN"
+title = "SolStolen EN"
+name = "George Neophytou"
+description = "Solstolen"
+weight = 1
+[Languages.en.params]
+linkedin = "english-link"
+[Languages.en.navigation]
+help  = "Help"
+home = "Home EN"
+about = "About EN"
+
+
+[Languages.sv]
+copyright = "Copyright SV"
+title = "SolStolen SV"
+weight = 2
+[Languages.sv.params]
+linkedin = "lien-francais"
+[Languages.sv.navigation]
+help  = "Help SV"
+home = "Home SV"
+about = "About SV"
+####### END LANG
+
+
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -18,12 +56,12 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "George Neophytou"
-  description = "Solstolen Website"
+  description = "Solstolen"
 
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.ico"
+  favicon    = "img/assets/favicon.png"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -44,12 +82,12 @@ googleAnalytics = ""
   #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
 
   # Navigation
-  [params.navigation]
+#  [params.navigation]
     brand = "Sol Stolen"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
-    portfolio = "Employees"
+    portfolio = "Portfolio"
     about = "About"
     team = "Team"
     contact = "Contact"

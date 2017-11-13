@@ -8,19 +8,25 @@
     <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
     <link href="img/assets/favicon.png" rel="icon" type="image/png">
     {{ "<!-- Stylesheets -->" | safeHTML }}
-    <link href="css/plugins.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/backgrounds.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="{{ "css/plugins.css" | absURL }}">
+    <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | absURL }}">
+    <link rel="stylesheet" type="text/css" href="{{ "css/backgrounds.css" | absURL }}">
+
+
     {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ . | absURL }}">
     {{ end }}
+
     {{ "<!-- Custom Fonts -->" | safeHTML }}
     {{ with not .Site.Params.disableFonts }}
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,800%7cNunito+Sans:200,300,400" rel="stylesheet">
-    <link href="fonts/IonIcons/stylesheet.css" rel="stylesheet" type="text/css">
-    <link href="fonts/ElegantIcons/style.css" rel="stylesheet" type="text/css">
-    <link href="fonts/PeaceSans/stylesheet.css" rel="stylesheet" type="text/css">
-    <link href="fonts/IconsMind/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="{{ "fonts/IonIcons/stylesheet.css" | absURL }}" rel="stylesheet" type="text/css">
+    <link href="{{ "fonts/ElegantIcons/style.css" | absURL }}" rel="stylesheet" type="text/css">
+    <link href="{{ "fonts/PeaceSans/stylesheet.css" | absURL }}" rel="stylesheet" type="text/css">
+    <link href="{{ "fonts/IconsMind/stylesheet.css" | absURL }}" rel="stylesheet" type="text/css">
+
+
     {{ end }}
     {{ with .Site.Params.favicon }}
     <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
