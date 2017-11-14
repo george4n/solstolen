@@ -1,4 +1,4 @@
-### menu
+########## MAIN MENU ##########
 - id: home
   translation: "Home"
 - id: about
@@ -29,6 +29,7 @@
 - id: blog-link
   translation: "blog"
 
+########## ABOUT PAGE ##########
 
 - id: copyright
   translation: "Copyright English"
