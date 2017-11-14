@@ -2,7 +2,7 @@ DefaultContentLanguage = "en"
 baseurl = "https://solstolen.eu"
 copyright = "Everything is mine"
 languageCode = "en"
-theme = "sol"
+theme = "sol-theme"
 title = "Solstolen"
 
 # Enter your tracking code to enable Google Analytics
