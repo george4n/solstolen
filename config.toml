@@ -35,7 +35,7 @@ weight = 10
 custom_css = []
 custom_js = []
 description = "Solstolen"
-disablefonts = true
+disablefonts = false
 favicon = "img/assets/favicon.png"
 name = "George Neophytou"
 [params.about]
