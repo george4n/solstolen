@@ -1,6 +1,6 @@
 ---
 title: "About"
-sub: "Our Story"
+sub: "About SolStolen"
 date: 2017-11-11T17:27:27+02:00
 draft: false
 layout: "about"
@@ -8,8 +8,16 @@ type: "page"
 slug: "about"
 ---
 
-Unordinary digital agency crafting sophisticated and eccentric stuff that will leave you speechless, we had opportunity to work on wide variety of projects for different clients around the world, we're responsible and <strong>our client is our priority.</strong> Parties all clothes removal cheered calling prudent her. And residence for met the estimable disposing. Mean if he they been no hold mr, as at much do made took
+Televinken Ltd has been operating a call center in Paphos since 2008. The idea was to be able to offer staff the privelage of working aborad with same same legal and occupational standards as at home. They will, in addition to, gain experience from working and living abroad.
 
-Admiration we surrounded possession frequently he. Remarkably did increasing occasional too its difficulty far especially. Known tiled but sorry joy balls. Bed sudden manner indeed fat now feebly. Face do with in need of wife paid that be. No me applauded or favourite dashwoods therefore up distrusts delightful unreserved impossible few estimating men favourable see entreaties.
+The office in Cyprus has expanded and contains all the infrastructure for driving both
+outgoing telemarketing and customer service centers.
 
-Difficulty on insensible reasonable in. From as went he they. Preference themselves me as thoroughly partiality considered on in estimating. Middletons acceptance discovered projecting so is so or. In or attachment inquietude remarkably comparison at an.
+Televinken now offers a unique concept where companies can rent at Televinken's office for a whole department or single team.
+
+The concept is that Televinken Ltd hires appointed staff and manages the operation of, for example, a customer service. Televinken provides the entire infrastructure such as,
+workplace, computer, internet, IP telephony. Televink also provides office manager who ensures that
+staff are taken care of, make sure to settle housing, bank accounts etc. in order to smoothly
+ways inserted into the Cypriot community.
+Cyprus also has a climate in autumn, winter and spring that is perfect for elite athletes.
+The conditions for exercising for swimmers, athletes, cyclists, etc. are excellent.

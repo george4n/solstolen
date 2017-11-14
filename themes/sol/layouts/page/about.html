@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-  {{ partial "head.html" . }}
-<body>
-    {{ partial "blocks/nav/transparent-white.html" . }}
-    {{ partial "sections/hero-pages.html" . }}
+{{ partial "head.html" . }}
+  {{ partial "block/nav/transparent-white.html" . }}
+  {{ partial "section/hero-pages.html" . }}
     <section class="bg-white">
         <div class="container pt140 pb140">
             <div class="row">
@@ -16,13 +13,9 @@
             </div>
         </div>
     </section>
-    {{ partial "sections/seperator.html" . }}
-    {{ partial "sections/team.html" . }}
-    {{ partial "sections/numbers.html" . }}
-    {{ partial "sections/clients.html" . }}
-    {{ partial "sections/seperator.html" . }}
-    {{ partial "sections/contact.html" . }}
-    {{ partial "blocks/footer/footer-black-2.html" . }}
-    {{ partial "js.html" . }}
-  </body>
-</html>
+    {{ partial "section/team.html" . }}
+    {{ partial "section/numbers.html" . }}
+    {{ partial "section/clients.html" . }}
+    {{ partial "section/seperator.html" . }}
+    {{ partial "section/contact.html" . }}
+{{ partial "foot.html" . }}

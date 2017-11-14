@@ -3,16 +3,17 @@
   {{ partial "head.html" . }}
 
 <body>
-    {{ partial "blocks/nav/transparent-white.html" . }}
-    {{ partial "hero2.html" . }}
+    {{ partial "block/nav/transparent-white.html" . }}
+    {{ partial "section/home/hero.html" . }}
 
-    {{ if .Site.Params.about.enable }}
-      {{ partial "about2.html" . }}
-    {{ end }}
-
-    {{ if .Site.Params.about.enable }}
+    {{ partial "section/home/selector.html" . }}
+    {{ partial "section/home/intro.html" . }}
+  {{ if .Site.Params.about.enable }}
       {{ partial "features.html" . }}
     {{ end }}
+    {{ partial "section/home/ticks.html" . }}
+
+
 
     {{ if .Site.Params.portfolio.enable }}
       {{ partial "portfolio2.html" . }}
@@ -27,10 +28,6 @@
     {{ end }}
 
     {{ if .Site.Params.team.enable }}
-      {{ partial "team2.html" . }}
-    {{ end }}
-
-    {{ if .Site.Params.team.enable }}
       {{ partial "testimonials.html" . }}
     {{ end }}
 
@@ -38,9 +35,9 @@
       {{ partial "contact2.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.footer.enable }}
-      {{ partial "footer2.html" . }}
-    {{ end }}
+
+      {{ partial "block/footer/footer-black-2.html" . }}
+
 
     {{ partial "js.html" . }}
   </body>

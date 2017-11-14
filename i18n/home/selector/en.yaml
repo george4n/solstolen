@@ -1,0 +1,26 @@
+- id: home-selector1-title
+  translation: "Services"
+- id: home-selector1-text
+  translation: "We have a number of services that you might be interested in."
+- id: home-selector1-btn
+  translation: "Read More"
+- id: home-selector1-btn-link
+  translation: "#"
+
+- id: home-selector2-title
+  translation: "Jobs"
+- id: home-selector2-text
+  translation: "We are constantly looking for new employees in sales and customer care. Are you interested in working abroad for the next 6-12 months, please fill in your information and the application to the right and attach your CV. We'll be back to you as soon as we read your application."
+- id: home-selector2-btn
+  translation: "Apply"
+- id: home-selector2-btn-link
+  translation: "#"
+
+- id: home-selector3-title
+  translation: "Pricing"
+- id: home-selector3-text
+  translation: "In case you are interested in our services, we have a specially built calculator that you can use to determine the costs invloved for your specific project"
+- id: home-selector3-btn
+  translation: "Quotation"
+- id: home-selector3-btn-link
+  translation: "#"

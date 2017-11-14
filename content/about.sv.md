@@ -1,6 +1,6 @@
 ---
 title: "Om"
-sub: "Our Story"
+sub: "Om SolStolen"
 date: 2017-11-11T17:27:27+02:00
 draft: false
 layout: "about"

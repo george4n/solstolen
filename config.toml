@@ -2,7 +2,7 @@ DefaultContentLanguage = "en"
 baseurl = "https://solstolen.eu"
 copyright = "Everything is mine"
 languageCode = "en"
-theme = "sol-theme"
+theme = "sol"
 title = "Solstolen"
 
 # Enter your tracking code to enable Google Analytics
@@ -136,7 +136,7 @@ buttontext = "Tell me more"
 subtitle = "It's nice to meet you"
 title = "Welcome To Our Studio!"
 [params.portfolio]
-enable = true
+enable = false
 subtitle = "Lorem ipsum dolor sit amet consectetur."
 title = "Portfolio"
 [params.portfolio.modal]

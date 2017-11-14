@@ -1,0 +1,26 @@
+- id: home-selector1-title
+  translation: "Tjänster"
+- id: home-selector1-text
+  translation: "Vi har ett antal tjänster som du kan vara intresserad av. Vänligen använd läs mer-knappen."
+- id: home-selector1-btn
+  translation: "Läs mer"
+- id: home-selector1-btn-link
+  translation: "#"
+
+- id: home-selector2-title
+  translation: "Jobb"
+- id: home-selector2-text
+  translation: "Vi söker kontinuerligt nya medarbetare inom försäljning och kundvård. Är du intresserad av att arbeta utomlands de kommande 6-12 månaderna så är du välkommen att fylla i dina uppgifter och ansökan till höger och bifoga ditt CV. Vi återkommer tll dig så snart vi läst din ansökan."
+- id: home-selector2-btn
+  translation: "Tillämpa"
+- id: home-selector2-btn-link
+  translation: "#"
+
+- id: home-selector3-title
+  translation: "Prissättning"
+- id: home-selector3-text
+  translation: "Om du är intresserad av våra tjänster har vi en specialbyggd räknare som du kan använda för att bestämma kostnaderna för ditt specifika projekt"
+- id: home-selector3-btn
+  translation: "Citat"
+- id: home-selector3-btn-link
+  translation: "#"

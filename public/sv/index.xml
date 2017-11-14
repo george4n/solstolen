@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SolStolen SV</title>
+    <link>https://solstolen.eu/sv/</link>
+    <description>Recent content on SolStolen SV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright SV</copyright>
+    <lastBuildDate>Sat, 11 Nov 2017 17:27:27 +0200</lastBuildDate>
+    
+	<atom:link href="https://solstolen.eu/sv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jobb</title>
+      <link>https://solstolen.eu/sv/jobb/</link>
+      <pubDate>Sat, 11 Nov 2017 17:27:27 +0200</pubDate>
+      
+      <guid>https://solstolen.eu/sv/jobb/</guid>
+      <description>This is the jobb page</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://solstolen.eu/sv/kontakt/</link>
+      <pubDate>Sat, 11 Nov 2017 17:27:27 +0200</pubDate>
+      
+      <guid>https://solstolen.eu/sv/kontakt/</guid>
+      <description>This is the kontakt page</description>
+    </item>
+    
+    <item>
+      <title>Om</title>
+      <link>https://solstolen.eu/sv/om-oss/</link>
+      <pubDate>Sat, 11 Nov 2017 17:27:27 +0200</pubDate>
+      
+      <guid>https://solstolen.eu/sv/om-oss/</guid>
+      <description>Unordinary digital agency crafting sophisticated and eccentric stuff that will leave you speechless, we had opportunity to work on wide variety of projects for different clients around the world, we&amp;rsquo;re responsible and our client is our priority. Parties all clothes removal cheered calling prudent her. And residence for met the estimable disposing. Mean if he they been no hold mr, as at much do made took
+Admiration we surrounded possession frequently he.</description>
+    </item>
+    
+    <item>
+      <title>Prissättning</title>
+      <link>https://solstolen.eu/sv/priss%C3%A4ttning/</link>
+      <pubDate>Sat, 11 Nov 2017 17:27:27 +0200</pubDate>
+      
+      <guid>https://solstolen.eu/sv/priss%C3%A4ttning/</guid>
+      <description>This is the Prissättning page</description>
+    </item>
+    
+    <item>
+      <title>Tjänster</title>
+      <link>https://solstolen.eu/sv/tj%C3%A4nster/</link>
+      <pubDate>Sat, 11 Nov 2017 17:27:27 +0200</pubDate>
+      
+      <guid>https://solstolen.eu/sv/tj%C3%A4nster/</guid>
+      <description>This is the Tjänster page&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Introduktion</title>
+      <link>https://solstolen.eu/sv/post/introduction/</link>
+      <pubDate>Mon, 05 Dec 2016 12:29:19 +0100</pubDate>
+      
+      <guid>https://solstolen.eu/sv/post/introduction/</guid>
+      <description>En rubrik Text om ämnet ett.</description>
+    </item>
+    
+  </channel>
+</rss>
