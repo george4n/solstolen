@@ -1,0 +1,16 @@
+name: People
+
+members:
+
+
+- title: "Kiki Christodoulou"
+  position:  "Office manager"
+  description: "Does Kiki work"
+
+- title: "George Neophytou"
+  position: "IT manager"
+  description: "George does work"
+
+- title: "Lars Sörensen"
+  position:  "Tech support"
+  description: "Does Lars work"
