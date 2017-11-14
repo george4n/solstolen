@@ -1,0 +1,50 @@
+### menu
+- id: home
+  translation: "Home"
+- id: about
+  translation: "About"
+- id: services
+  translation: "Services"
+- id: jobs
+  translation: "Jobs"
+- id: pricing
+  translation: "Pricing"
+- id: contact
+  translation: "Contact"
+- id: blog
+  translation: "Blog"
+
+- id: home-link
+  translation: "/#hero"
+- id: about-link
+  translation: "about"
+- id: services-link
+  translation: "services"
+- id: jobs-link
+  translation: "jobs"
+- id: pricing-link
+  translation: "pricing"
+- id: contact-link
+  translation: "contact"
+- id: blog-link
+  translation: "blog"
+
+
+- id: copyright
+  translation: "Copyright English"
+- id: previous
+  translation: "Previous"
+- id: backtotop
+  translation: "back to top"
+- id: readmore
+  translation: "Read more"
+- id: byauthor
+  translation: "by"
+- id: readinabout
+  translation: "Read in about {{ .ReadingTime }} min"
+- id: words
+  translation: "{{ .WordCount }} words"
+- id: latestposts
+  translation: "Latest Posts"
+- id: footer-message
+  translation: "This is the English footer message"

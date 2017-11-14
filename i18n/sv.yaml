@@ -1,0 +1,50 @@
+### menu
+- id: home
+  translation: "Hem"
+- id: about
+  translation: "Oss"
+- id: services
+  translation: "Tjänster"
+- id: jobs
+  translation: "Jobb"
+- id: pricing
+  translation: "Prissättning"
+- id: contact
+  translation: "Kontakt"
+- id: blog
+  translation: "Blog"
+
+
+- id: home-link
+  translation: "/#hero"
+- id: about-link
+  translation: "om-oss"
+- id: services-link
+  translation: "tjänster"
+- id: jobs-link
+  translation: "jobb"
+- id: pricing-link
+  translation: "prissättning"
+- id: contact-link
+  translation: "kontakt"
+- id: blog-link
+  translation: "blog"
+
+- id: copyright
+  translation: "Copyright Swedish"
+- id: previous
+  translation: "Föregående"
+- id: backtotop
+  translation: "Till toppen"
+- id: readmore
+  translation: "Läs mer"
+- id: byauthor
+  translation: "av"
+- id: readinabout
+  translation: "Läs på {{ .ReadingTime }} min"
+- id: words
+  translation: "{{ .WordCount }} ord"
+- id: latestposts
+  translation: "Senaste artiklarna"
+- id: footer-message
+  translation: "This is the Swedish footer message"
