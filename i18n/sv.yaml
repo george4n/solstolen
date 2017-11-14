@@ -1,7 +1,10 @@
-
-
 - id: copyright
-  translation: "Copyright Swedish"
+  translation: "Upphovsrätt"
+- id: copyright-sub
+  translation: "Alla rättigheter förbehållna"
+- id: footer-text
+  translation: "Solstolen"
+
 - id: previous
   translation: "Föregående"
 - id: backtotop

@@ -5,11 +5,14 @@
 <body>
     {{ partial "block/nav/transparent-white.html" . }}
     {{ partial "section/home/hero.html" . }}
-
-    {{ partial "section/home/selector.html" . }}
     {{ partial "section/home/intro.html" . }}
+    {{ partial "section/home/selector.html" . }}
+    {{ partial "section/home/services.html" . }}
+
+    {{ partial "features.html" . }}
+
   {{ if .Site.Params.about.enable }}
-      {{ partial "features.html" . }}
+
     {{ end }}
     {{ partial "section/home/ticks.html" . }}
 
@@ -19,9 +22,6 @@
       {{ partial "portfolio2.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.services.enable }}
-      {{ partial "services2.html" . }}
-    {{ end }}
 
     {{ if .Site.Params.services.enable }}
       {{ partial "numbers.html" . }}

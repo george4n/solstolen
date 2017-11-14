@@ -1,11 +1,11 @@
-
-
-
-
-
-
 - id: copyright
-  translation: "Copyright English"
+  translation: "Copyright"
+- id: copyright-sub
+  translation: "All rights reserved"
+- id: footer-text
+  translation: "Solstolen"
+
+
 - id: previous
   translation: "Previous"
 - id: backtotop

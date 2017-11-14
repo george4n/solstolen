@@ -1,2 +1,8 @@
-- id: home-selector1-title
-  translation: "Services"
+- id: home-intro-title
+  translation: "A little bit about us"
+- id: home-intro-description
+  translation: "Televinken Ltd has been operating a call center in Paphos since 2008. The idea was to be able to offer staff the privelage of working aborad with same same legal and occupational standards as at home. They will, in addition to, gain experience from working and living abroad."
+- id: home-intro-subtitle
+  translation: "Interested in our story and want to know us even better?"
+- id: home-intro-btn
+  translation: "Read More"
