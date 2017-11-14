@@ -1,10 +1,13 @@
 DefaultContentLanguage = "en"
 baseurl = "https://solstolen.eu"
 copyright = "Everything is mine"
-googleAnalytics = ""
 languageCode = "en"
 theme = "sol"
 title = "Solstolen"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
 [Languages.en]
 copyright = "Copyright EN"
 description = "Solstolen"
@@ -31,6 +34,7 @@ linkedin = "lien-francais"
 name = "External link"
 url = "http://gohugo.io"
 weight = 10
+
 [params]
 custom_css = []
 custom_js = []
@@ -38,51 +42,63 @@ description = "Solstolen"
 disablefonts = false
 favicon = "img/assets/favicon.png"
 name = "George Neophytou"
+
 [params.about]
 enable = true
 endpoint = "Be part<br>of our<br>story!"
 subtitle = "Lorem ipsum dolor sit amet consectetur."
 title = "About"
+
 [[params.about.events]]
 date = "2009-2011"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 img = "1.jpg"
 title = "Our Humble Beginnings"
+
 [[params.about.events]]
 date = "March 2011"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 img = "2.jpg"
 title = "An Agency is Born"
+
 [[params.about.events]]
 date = "December 2012"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 img = "3.jpg"
 title = "Our Humble Beginnings"
+
 [[params.about.events]]
 date = "July 2014"
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 img = "4.jpg"
 title = "Phase Two Expansion"
+
 [params.clients_list]
 enable = true
+
 [params.contact]
 buttontext = "Send message"
 email = "your@email.com"
 enable = true
 subtitle = "Lorem ipsum dolor sit amet consectetur."
 title = "Contact us"
+
 [params.contact.form.email]
 text = "Your Email *"
 warning = "Please enter your email address."
+
 [params.contact.form.message]
 text = "Your Message *"
 warning = "Please enter a message."
+
 [params.contact.form.name]
 text = "Your Name *"
 warning = "Please enter your name."
+
 [params.contact.form.phone]
 text = "Your Phone *"
 warning = "Please enter your phone number."
+
 [params.error404]
 about = "About"
 brand = "Sol Stolen"
@@ -92,18 +108,23 @@ portfolio = "Portfolio"
 services = "Services"
 team = "Team"
 text = "Please visit [this page](/)"
+
 [params.footer]
 copyright = "Published under the Apache License 2.0."
 enable = true
+
 [[params.footer.quicklinks]]
 link = "#"
 text = "Privacy Policy"
+
 [[params.footer.quicklinks]]
 link = "#"
 text = "Terms of Use"
+
 [[params.footer.social]]
 icon = "fa-twitter"
 link = "#"
+
 [[params.footer.social]]
 icon = "fa-facebook"
 link = "#"
