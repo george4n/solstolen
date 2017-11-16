@@ -25,6 +25,15 @@ home_intro_sub_text: "Interested in our story and want to know us even better?"
 home_intro_button: "Read More"
 home_intro_button_link: "about"
 
+#FEATURES
+
+home_feature_1_heading: "WE'RE UNIQUE"
+home_feature_1_text: "Our concept is unique in Cyprus, it is something that needs to be experienced"
+home_feature_2_heading: "WE'RE EFFICIENT"
+home_feature_2_text: "Operating for since 2008, we have gotten good at what we do"
+home_feature_3_heading: "WE'RE FLEXIBLE"
+home_feature_3_text: "Need some special setup for your team? We can handle that for you"
+
 #SERVICES
 
 
