@@ -8,35 +8,21 @@
     {{ partial "section/home/intro.html" . }}
     {{ partial "section/home/selector.html" . }}
     {{ partial "section/home/services.html" . }}
-
     {{ partial "features.html" . }}
-
-  {{ if .Site.Params.about.enable }}
-
+    {{ if .Site.Params.about.enable }}
     {{ end }}
-
-
-
-
     {{ if .Site.Params.portfolio.enable }}
-      {{ partial "portfolio2.html" . }}
+    {{ partial "portfolio2.html" . }}
     {{ end }}
-
-
     {{ if .Site.Params.services.enable }}
-      {{ partial "numbers.html" . }}
+    {{ partial "numbers.html" . }}
     {{ end }}
     {{ partial "section/home/ticks.html" . }}
     {{ partial "section/home/reviews.html" . }}
-
     {{ if .Site.Params.contact.enable }}
-      {{ partial "contact2.html" . }}
+    {{ partial "contact2.html" . }}
     {{ end }}
-
-
-      {{ partial "block/footer/footer-black-2.html" . }}
-
-
+    {{ partial "block/footer/footer-black-2.html" . }}
     {{ partial "js.html" . }}
   </body>
 </html>
