@@ -4,9 +4,9 @@
                 <div class="row">
                     <div class="col-md-8 m-auto text-center">
                         <div class="black">
-                            <h5 class="subheading mb15">{{ i18n "home-intro-title" }}</h5>
-                            <h5 class="h5-lg mb15 black">{{ i18n "home-intro-description" }}</h5>
-                            <p class="hidden-xs inline-block gray">{{ i18n "home-intro-subtitle" }}</p><a href="#" class="btn-p-gray ml10 gray">{{ i18n "home-intro-btn" }}</a>
+                            <h5 class="subheading mb15">{{ .Params.home_intro_heading }}</h5>
+                            <h5 class="h5-lg mb15 black">{{ .Params.home_intro_text }}</h5>
+                            <p class="hidden-xs inline-block gray">{{ .Params.home_intro_sub_text }}</p><a href="{{ .Params.home_intro_button_link }}" class="btn-p-gray ml10 gray">{{ .Params.home_intro_button }}</a>
                         </div>
                     </div>
                 </div>

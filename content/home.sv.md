@@ -9,5 +9,19 @@ slug: "/"
 
 # USER DEFINE PARAMETERS
 
+#HERO
 home_hero_video_id: "https://www.youtube.com/embed/U9LPKlqy5k4?loop=1&autoplay=1&mute=1&playlist=U9LPKlqy5k4&iv_load_policy=3"
+home_hero_leading_heading: "Vi är"
+home_hero_large_heading: "SOLSTOLEN"
+home_hero_sub_heading: "En plats i solen, på en ö som kommer att lämna dig andfådd"
+home_hero_button_text: "View More"
+home_hero_button_link: "#"
+
+#INTRO
+
+home_intro_heading: "A LITTLE BIT ABOUT US"
+home_intro_text: "Televinken Ltd has been operating a call center in Paphos since 2008. The idea was to be able to offer staff the privelage of working aborad with same same legal and occupational standards as at home. They will, in addition to, gain experience from working and living abroad."
+home_intro_sub_text: "Interested in our story and want to know us even better?"
+home_intro_button: "Read More"
+home_intro_button_link: "om-oss"
 ---
