@@ -27,6 +27,7 @@ home_intro_button_link: "about"
 
 #SERVICES
 
+
 home_service_leading_heading: "Our Expertise"
 home_service_large_heading: "Services Offered"
 
@@ -35,10 +36,14 @@ home_service_1_icon: "Note"
 home_service_1_text: "We have staff that will manage all legal requirements of your employees."
 
 home_service_2_heading: "Accommodation"
-home_service_2_heading_icon: "Home-3"
+home_service_2_icon: "Home-3"
 home_service_2_text: "Televinken Ltd has a well-developed network of landlords in the Paphos region. "
 
 home_service_3_heading: "Payroll"
 home_service_3_icon: "Euro"
 home_service_3_text: "We pay your employees every month and send reports to you"
+
+home_services_sub_text: "Top quality services executed by our devoted team."
+home_services_button: "Tell me more"
+home_services_button_link: "#"
 ---

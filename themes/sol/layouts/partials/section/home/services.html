@@ -3,8 +3,8 @@
     <div class="container pt140 pb140">
         <!-- Section Heading -->
         <div class="section-heading col-md-6 black m-auto">
-            <h5 class="subheading dark mb5">Our Expertise</h5>
-            <h2 class="h2-md">Services</h2>
+            <h5 class="subheading dark mb5">{{ .Params.home_service_leading_heading }}</h5>
+            <h2 class="h2-md">{{ .Params.home_service_large_heading }}</h2>
         </div>
         <!-- -->
         <div class="row flexAlign">
@@ -14,54 +14,52 @@
                 <div class="service-container">
                     <div class="service-bg text-center bg-3">
                         <!-- Service Icon -->
-                        <i class="iconsmind-Pantone white x5"></i>
+                        <i class="iconsmind-{{ .Params.home_service_1_icon }} x5"></i>
                         <!-- -->
                     </div>
                     <div class="service-desc black text-center">
-                        <h3 class="h3-md mt0 mb5">Web Design</h3>
-                        <h5 class="h5-sm mb30">Her companions instrument set estimating sen remarkably solicitude motionless, property men calibrate</h5>
+                        <h3 class="h3-md mt0 mb5">{{ .Params.home_service_1_heading }}</h3>
+                        <h5 class="h5-sm mb30">{{ .Params.home_service_1_text }}</h5>
                     </div>
                 </div>
             </div>
             <!-- -->
-
             <!-- Service -->
             <div class="col-md-4 col-sm-6 pl10 pr10">
                 <div class="service-container">
                     <div class="service-bg text-center bg-3">
                         <!-- Service Icon -->
-                        <i class="iconsmind-Len white x5"></i>
+                        <i class="iconsmind-{{ .Params.home_service_2_icon }} x5"></i>
                         <!-- -->
                     </div>
                     <div class="service-desc black text-center">
-                        <h3 class="h3-md mt0 mb5">Photography</h3>
-                        <h5 class="h5-sm mb30">Her companions instrument set estimating sen remarkably solicitude motionless, property men calibrate</h5>
+                        <h3 class="h3-md mt0 mb5">{{ .Params.home_service_2_heading }}</h3>
+                        <h5 class="h5-sm mb30">{{ .Params.home_service_2_text }}</h5>
                     </div>
                 </div>
             </div>
             <!-- -->
-
             <!-- Service -->
             <div class="col-md-4 col-sm-6 pl10 pr10">
                 <div class="service-container">
                     <div class="service-bg text-center bg-3">
                         <!-- Service Icon -->
-                        <i class="iconsmind-Bar-Code white x5"></i>
+                        <i class="iconsmind-{{ .Params.home_service_3_icon }} x5"></i>
                         <!-- -->
                     </div>
                     <div class="service-desc black text-center">
-                        <h3 class="h3-md mt0 mb5">Branding</h3>
-                        <h5 class="h5-sm mb30">Her companions instrument set estimating sen remarkably solicitude motionless, property men calibrate</h5>
+                        <h3 class="h3-md mt0 mb5">{{ .Params.home_service_3_heading }}</h3>
+                        <h5 class="h5-sm mb30">{{ .Params.home_service_3_text }}</h5>
                     </div>
                 </div>
             </div>
             <!-- -->
+
 
         </div>
         <div class="col-md-4 services-text-block text-center m-auto mt40">
-            <p>Top quality services executed by our devoted,
-            yet creative team. Nothing less than creative.</p>
-            <a href="#contact-anchor" class="btn btn-ghost-black btn-scroll mt15">Let's Get In Touch</a>
+            <p>{{ .Params.home_services_sub_text }}</p>
+            <a href="{{ .Params.home_services_button_link }}" class="btn btn-ghost-black btn-scroll mt15">{{ .Params.home_services_button }}</a>
         </div>
     </div>
 </section>
