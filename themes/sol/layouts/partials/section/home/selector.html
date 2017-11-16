@@ -2,25 +2,25 @@
             <div class="container pt120 pb120">
                 <div class="text-center">
                     <ul id="iconTabs" class="nav nav-tabs nav-tabs-center">
-                        <li class="active"><a href="#tab-i1" data-toggle="tab"><span class="icon-tab iconsmind-Diploma"></span><h5 class="subheading dark">{{ i18n "home-selector1-title" }}</h5></a></li>
-                        <li class=""><a href="#tab-i2" data-toggle="tab"><span class="icon-tab iconsmind-Factory"></span><h5 class="subheading dark">{{ i18n "home-selector2-title" }}</h5></a></li>
-                        <li class=""><a href="#tab-i3" data-toggle="tab"><span class="icon-tab iconsmind-Vector-5"></span><h5 class="subheading dark">{{ i18n "home-selector3-title" }}</h5></a></li>
+                        <li class="active"><a href="#tab-i1" data-toggle="tab"><span class="icon-tab iconsmind-{{ .Params.home_selector_1_icon }}"></span><h5 class="subheading dark">{{ .Params.home_selector_1_heading }}</h5></a></li>
+                        <li class=""><a href="#tab-i2" data-toggle="tab"><span class="icon-tab iconsmind-{{ .Params.home_selector_2_icon }}"></span><h5 class="subheading dark">{{ .Params.home_selector_2_heading }}</h5></a></li>
+                        <li class=""><a href="#tab-i3" data-toggle="tab"><span class="icon-tab iconsmind-{{ .Params.home_selector_3_icon }}"></span><h5 class="subheading dark">{{ .Params.home_selector_3_heading }}</h5></a></li>
                     </ul>
                     <div id="myTabContent" class="tab-content">
                         <div class="tab-pane fade active in" id="tab-i1">
-                            <h5 class="h5-md col-md-8 m-auto weight-300">{{ i18n "home-selector1-text" }}</h5>
+                            <h5 class="h5-md col-md-8 m-auto weight-300">{{ .Params.home_selector_1_text }}</h5>
                               <br>
-                            <a href="{{ i18n "services-link" | absLangURL }}" class="btn btn-rounded btn-black">{{ i18n "home-selector1-btn" }}</a>
+                            <a href="{{ .Params.home_selector_1_button_link }}" class="btn btn-rounded btn-black">{{ .Params.home_selector_1_button }}</a>
                         </div>
                         <div class="tab-pane fade" id="tab-i2">
-                            <h5 class="h5-md col-md-8 m-auto weight-300">{{ i18n "home-selector2-text" }}</h5>
+                            <h5 class="h5-md col-md-8 m-auto weight-300">{{ .Params.home_selector_2_text }}</h5>
                               <br>
-                            <a href="{{ i18n "jobs-link" | absLangURL }}" class="btn btn-rounded btn-black">{{ i18n "home-selector2-btn" }}</a>
+                            <a href="{{ .Params.home_selector_2_button_link }}" class="btn btn-rounded btn-black">{{ .Params.home_selector_2_button }}</a>
                         </div>
                         <div class="tab-pane fade" id="tab-i3">
-                            <h5 class="h5-md col-md-8 m-auto weight-300">{{ i18n "home-selector3-text" }}</h5>
+                            <h5 class="h5-md col-md-8 m-auto weight-300">{{ .Params.home_selector_3_text }}</h5>
                               <br>
-                            <a href="{{ i18n "pricing-link" | absLangURL }}" class="btn btn-rounded btn-black">{{ i18n "home-selector3-btn" }}</a>
+                            <a href="{{ .Params.home_selector_3_button_link }}" class="btn btn-rounded btn-black">{{ .Params.home_selector_3_button }}</a>
                         </div>
                     </div>
                 </div>

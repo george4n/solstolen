@@ -55,4 +55,24 @@ home_service_3_text: "We pay your employees every month and send reports to you"
 home_services_sub_text: "Top quality services executed by our devoted team."
 home_services_button: "Tell me more"
 home_services_button_link: "#"
+
+#SELECTOR
+
+home_selector_1_heading: "Services"
+home_selector_1_text: "We have a number of services that you might be interested in."
+home_selector_1_icon: "ID-3"
+home_selector_1_button: "Read More"
+home_selector_1_button_link: "#"
+
+home_selector_2_heading: "Jobs"
+home_selector_2_text: "We are constantly looking for new employees in sales and customer care. Are you interested in working abroad for the next 6-12 months, please fill in your information and the application to the right and attach your CV. We'll be back to you as soon as we read your application."
+home_selector_2_icon: "MaleFemale"
+home_selector_2_button: "Apply"
+home_selector_2_button_link: "#"
+
+home_selector_3_heading: "Pricing"
+home_selector_3_text: "In case you are interested in our services, we have a specially built calculator that you can use to determine the costs invloved for your specific project"
+home_selector_3_icon: "Money"
+home_selector_3_button: "Quotation"
+home_selector_3_button_link: "#"
 ---
