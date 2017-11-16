@@ -13,10 +13,10 @@
             <div class="hero-content">
                 <div class="container pl5p pr5p">
                     <div class="col-md-8 text-center m-auto white">
-                        <h5 class="hero-subheading mb15">{{ i18n "hero-1"}}</h5>
-                        <h1 class="h1-md mb20">{{ i18n "hero-2"}}</h1>
-                        <h5 class="lead h5-md mb20">{{ i18n "hero-3"}}<br>{{ i18n "hero-4"}}</h5>
-                        <a href="#portfolio-anchor" class="btn btn-white btn-scroll mt10">View Projects</a>
+                      <h5 class="hero-subheading mb15">{{ .Params.home_hero_leading_heading }}</h5>
+                      <h1 class="h1-md mb20">{{ .Params.home_hero_large_heading }}</h1>
+                      <h5 class="lead h5-md mb20">{{ .Params.home_hero_sub_heading }}</h5>
+                      <a href="{{ .Params.home_hero_button_link }}" class="btn btn-white btn-scroll mt10">{{ .Params.home_hero_button_text }}</a>
                     </div>
                 </div>
             </div>
