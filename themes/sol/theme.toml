@@ -8,8 +8,8 @@ description = "A onepage theme for the SolStolen Website"
 homepage = "http://example.com/"
 tags = ["portfolio", "company", "contact form", "timeline", "google analytics", "piwik"]
 features = []
-min_version = "0.30.2"
-#min_version = "0.28"
+#min_version = "0.30.2"
+min_version = "0.28"
 
 [author]
   name = "George Neophytou"
