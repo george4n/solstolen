@@ -14,7 +14,7 @@
   {{ if .Site.Params.about.enable }}
 
     {{ end }}
-    {{ partial "section/home/ticks.html" . }}
+
 
 
 
@@ -26,10 +26,8 @@
     {{ if .Site.Params.services.enable }}
       {{ partial "numbers.html" . }}
     {{ end }}
-
-    {{ if .Site.Params.team.enable }}
-      {{ partial "testimonials.html" . }}
-    {{ end }}
+    {{ partial "section/home/ticks.html" . }}
+    {{ partial "section/home/reviews.html" . }}
 
     {{ if .Site.Params.contact.enable }}
       {{ partial "contact2.html" . }}
