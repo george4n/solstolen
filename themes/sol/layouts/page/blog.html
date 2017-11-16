@@ -1,0 +1,84 @@
+{{ partial "head.html" . }}
+  {{ partial "block/nav/transparent-white.html" . }}
+  {{ partial "section/hero-pages.html" . }}
+
+
+          <!-- BLOG -->
+          <section class="bg-white">
+              <div class="container-fluid pt110 pb110">
+                  <div class="row">
+
+                    {{ range  .Data.Pages  }}
+                       {{ .Content }}
+                    {{ end }}
+
+
+                      <!-- Blog Post -->
+                      <div class="col-md-6 text-center">
+                          <div class="blog-post">
+                              <div class="blog-post-preview">
+                                  <a href="blog-post-single.html">
+                                      <img src="img/blog/blog-post-thumbnails/preview-1.jpg" alt="#">
+                                  </a>
+                              </div>
+                              <div class="blog-post-description">
+                                  <div class="blog-post-category">
+                                      <span>in <a href="#"><span class="subheading dark">Lifestyle</span></a></span>
+                                  </div>
+                                  <div class="blog-post-title">
+                                      <a href="blog-post-single.html">
+                                          <h3 class="h3-lg">{{.Title}}</h3>
+                                      </a>
+                                  </div>
+                                  <p>{{.Date.Format "2006-01-02"}} On it differed repeated wandered required in.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- -->
+
+
+                      <!-- Blog Post -->
+                      <div class="col-md-6 text-center">
+                          <div class="blog-post">
+                              <div class="blog-post-preview">
+                                  <a href="blog-post-single.html">
+                                      <img src="img/blog/blog-post-thumbnails/preview-1.jpg" alt="#">
+                                  </a>
+                              </div>
+                              <div class="blog-post-description">
+                                  <div class="blog-post-category">
+                                      <span>in <a href="#"><span class="subheading dark">Lifestyle</span></a></span>
+                                  </div>
+                                  <div class="blog-post-title">
+                                      <a href="blog-post-single.html">
+                                          <h3 class="h3-lg">Residence Certainly, Here</h3>
+                                      </a>
+                                  </div>
+                                  <p>On it differed repeated wandered required in.11111</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- -->
+
+
+
+                  </div>
+                  <div class="blog-pagination text-center">
+                      <ul class="ul-h">
+                          <li class="prev"><a href="#"><i class="ion-chevron-left"></i>Prev</a></li>
+                          <li class="active"><a href="#">1</a></li>
+                          <li><a href="#">2</a></li>
+                          <li><a href="#">3</a></li>
+                          <li><a href="#">4</a></li>
+                          <li><a href="#">5</a></li>
+                          <li><a href="#">6</a></li>
+                          <li class="next"><a href="#">Next<i class="ion-chevron-right"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
+          <!-- -->
+
+
+    {{ partial "section/seperator.html" . }}
+{{ partial "foot.html" . }}

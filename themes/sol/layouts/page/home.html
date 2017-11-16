@@ -6,7 +6,9 @@
     {{ partial "block/nav/transparent-white.html" . }}
     {{ partial "section/home/hero.html" . }}
     {{ partial "section/home/intro.html" . }}
-
+    {{ range first 10 .Data.Pages }}
+        <h1>{{ .Title }}</h1>
+      {{ end }}
     {{ partial "section/home/features.html" . }}
     {{ partial "section/home/services.html" . }}
     {{ partial "section/home/selector.html" . }}
@@ -20,7 +22,7 @@
 
     {{ partial "section/home/ticks.html" . }}
     {{ partial "section/home/reviews.html" . }}
-    
+
     {{ partial "block/footer/footer-black-2.html" . }}
     {{ partial "js.html" . }}
   </body>
