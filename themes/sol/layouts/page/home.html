@@ -6,9 +6,10 @@
     {{ partial "block/nav/transparent-white.html" . }}
     {{ partial "section/home/hero.html" . }}
     {{ partial "section/home/intro.html" . }}
-    {{ partial "section/home/selector.html" . }}
-    {{ partial "section/home/services.html" . }}
+
     {{ partial "features.html" . }}
+    {{ partial "section/home/services.html" . }}
+    {{ partial "section/home/selector.html" . }}
     {{ if .Site.Params.about.enable }}
     {{ end }}
     {{ if .Site.Params.portfolio.enable }}
