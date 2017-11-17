@@ -1,0 +1,11 @@
+<div class="blog-pagination text-center">
+    <ul class="ul-h">
+      {{if .Paginator.HasPrev }}
+        <li class="prev"><a href="{{ .Paginator.Prev.URL }}"><i class="ion-chevron-left"></i>Prev</a></li>
+   {{ end }}
+        <li class="active">{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</li>
+        {{ if .Paginator.HasNext }}
+        <li class="next"><a href="{{ .Paginator.Next.URL }}">Next<i class="ion-chevron-right"></i></a></li>
+        {{ end }}
+    </ul>
+</div>

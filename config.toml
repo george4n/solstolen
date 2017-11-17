@@ -4,7 +4,7 @@ copyright = "Everything is mine"
 languageCode = "en"
 theme = "sol"
 title = "Solstolen"
-
+Paginate = 2
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 

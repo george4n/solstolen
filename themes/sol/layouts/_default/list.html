@@ -1,0 +1,48 @@
+{{ partial "head.html" . }}
+  {{ partial "block/nav/transparent-white.html" . }}
+  {{ partial "section/hero-pages.html" . }}
+
+
+          <!-- BLOG -->
+          <section class="bg-white">
+              <div class="container-fluid pt110 pb110">
+                  <div class="row">
+
+                    {{ range where .Paginator.Pages "Section" "blog" }}
+                      <!-- Blog Post -->
+                      <div class="col-md-6 text-center">
+                          <div class="blog-post">
+                              <div class="blog-post-preview">
+                                  <a href="{{ .Permalink }}">
+                                      <img src="/img/blog/blog-post-thumbnails/preview-1.jpg" alt="#">
+                                  </a>
+                              </div>
+                              <div class="blog-post-description">
+                                  <div class="blog-post-category">
+                                      <span>in <a href="#"><span class="subheading dark">News</span></a></span>
+                                  </div>
+                                  <div class="blog-post-title">
+                                      <a href="{{ .Permalink }}">
+                                          <h3 class="h3-lg">{{.Title}}</h3>
+                                      </a>
+                                  </div>
+                                  <p>{{.Date.Format "2006-01-02"}} - {{ .Summary }} - {{ .FuzzyWordCount }} Words</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- -->
+                      {{ end }}
+
+
+
+
+
+                  </div>
+                  {{ partial "section/pagination.html" . }}
+              </div>
+          </section>
+          <!-- -->
+
+
+    {{ partial "section/seperator.html" . }}
+{{ partial "foot.html" . }}

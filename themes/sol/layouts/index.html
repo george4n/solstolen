@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  {{ partial "head.html" . }}
+
+<body>
+    {{ partial "block/nav/transparent-white.html" . }}
+    {{ partial "section/home/hero.html" . }}
+    {{ partial "section/home/intro.html" . }}
+    {{ partial "section/home/features.html" . }}
+    {{ partial "section/home/services.html" . }}
+    {{ partial "section/home/selector.html" . }}
+    {{ if .Site.Params.about.enable }}
+    {{ end }}
+    {{ if .Site.Params.portfolio.enable }}
+    {{ partial "portfolio2.html" . }}
+    {{ end }}
+
+    {{ partial "section/home/numbers.html" . }}
+
+    {{ partial "section/home/ticks.html" . }}
+    {{ partial "section/home/reviews.html" . }}
+
+    {{ partial "block/footer/footer-black-2.html" . }}
+    {{ partial "js.html" . }}
+  </body>
+</html>
