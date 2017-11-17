@@ -1,35 +1,29 @@
 {{ partial "head.html" . }}
   {{ partial "block/nav/transparent-white.html" . }}
-
+    {{ partial "section/hero-pages.html" . }}
   <!-- BLOG POST -->
          <section class="bg-white">
              <div class="container pt110 pb110">
                  <div class="row">
-
                      <!-- Blog Post -->
                      <div class="col-md-8">
                          <div class="blog-post-single">
                              <div class="blog-post-description">
                                  <div class="blog-post-category">
-                                     <span>in <a href="#"><span class="subheading dark">Lifestyle</span></a></span>
+                                     <span>in <a href="#"><span class="subheading dark">News</span></a></span>
                                  </div>
                                  <div class="blog-post-title">
-                                     <h3 class="h3-lg">Residence Certainly</h3>
+                                     <h3 class="h3-lg">{{ .Title }}</h3>
                                  </div>
                              </div>
                              <div class="blog-post-preview">
-                                 <img src="img/blog/single-post-images/post-1.jpg" alt="#">
+                                 <img src="/img/blog/single-post-images/post-1.jpg" alt="#">
                              </div>
                              <div class="blog-post-text">
-                                 <p>Ye to misery wisdom plenty polite to as. Prepared interest proposal it he exercise. My wishing an in attempt ferrars. Visited eat you why service looking engaged. At place no walls hopes rooms fully in.
-                                 <strong>Roof hope shy tore leaf joy</strong> paid boy. Noisier out brought entered detract because sitting sir. Fat put occasion rendered off humanity has.</p>
 
-                                 <p><i><strong>Now residence dashwoods she excellent you. Shade being under his bed her.</strong></i> Much read on as draw. Blessing for ignorant exercise any yourself unpacked. Pleasant horrible but confined day end marriage. Eagerness furniture set preserved far recommend. Of remarkably thoroughly he appearance in. Supposing tolerably applauded or of be.</p>
+                               {{ .Content }}
 
-                                 <blockquote><h5 class="h5-lg">Eagerness furniture set preserved far recommend.</h5></blockquote>
-
-                                 <p>Ten the hastened steepest feelings pleasant few surprise property. An brother he do colonel against minutes can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.</p>
-                             </div>
+                            </div>
                              <div class="blog-post-bottom">
                                  <div class="row flexAlign">
                                      <div class="col-md-3">
@@ -57,7 +51,7 @@
                                      <div class="col-md-3">
                                          <!-- Blog Post Date -->
                                          <div class="post-date">
-                                             Posted on 26 May 2017
+                                             Posted on {{.Date.Format "2006-01-02"}}
                                          </div>
                                          <!-- -->
                                      </div>
