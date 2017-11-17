@@ -1,0 +1,263 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: sub
+  label: Sub
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: slug
+  label: Slug
+  type: text
+  hidden: false
+  default: ''
+- name: home_hero_video_id
+  label: Home hero video id
+  type: textarea
+  hidden: false
+  default: ''
+- name: home_hero_leading_heading
+  label: Home hero leading heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_hero_large_heading
+  label: Home hero large heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_hero_sub_heading
+  label: Home hero sub heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_hero_button_text
+  label: Home hero button text
+  type: text
+  hidden: false
+  default: ''
+- name: home_hero_button_link
+  label: Home hero button link
+  type: text
+  hidden: false
+  default: ''
+- name: home_intro_heading
+  label: Home intro heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_intro_text
+  label: Home intro text
+  type: textarea
+  hidden: false
+  default: ''
+- name: home_intro_sub_text
+  label: Home intro sub text
+  type: text
+  hidden: false
+  default: ''
+- name: home_intro_button
+  label: Home intro button
+  type: text
+  hidden: false
+  default: ''
+- name: home_intro_button_link
+  label: Home intro button link
+  type: text
+  hidden: false
+  default: ''
+- name: home_feature_1_heading
+  label: Home feature 1 heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_feature_1_text
+  label: Home feature 1 text
+  type: text
+  hidden: false
+  default: ''
+- name: home_feature_2_heading
+  label: Home feature 2 heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_feature_2_text
+  label: Home feature 2 text
+  type: text
+  hidden: false
+  default: ''
+- name: home_feature_3_heading
+  label: Home feature 3 heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_feature_3_text
+  label: Home feature 3 text
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_leading_heading
+  label: Home service leading heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_large_heading
+  label: Home service large heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_1_heading
+  label: Home service 1 heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_1_icon
+  label: Home service 1 icon
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_1_text
+  label: Home service 1 text
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_2_heading
+  label: Home service 2 heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_2_icon
+  label: Home service 2 icon
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_2_text
+  label: Home service 2 text
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_3_heading
+  label: Home service 3 heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_3_icon
+  label: Home service 3 icon
+  type: text
+  hidden: false
+  default: ''
+- name: home_service_3_text
+  label: Home service 3 text
+  type: text
+  hidden: false
+  default: ''
+- name: home_services_sub_text
+  label: Home services sub text
+  type: text
+  hidden: false
+  default: ''
+- name: home_services_button
+  label: Home services button
+  type: text
+  hidden: false
+  default: ''
+- name: home_services_button_link
+  label: Home services button link
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_1_heading
+  label: Home selector 1 heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_1_text
+  label: Home selector 1 text
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_1_icon
+  label: Home selector 1 icon
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_1_button
+  label: Home selector 1 button
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_1_button_link
+  label: Home selector 1 button link
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_2_heading
+  label: Home selector 2 heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_2_text
+  label: Home selector 2 text
+  type: textarea
+  hidden: false
+  default: ''
+- name: home_selector_2_icon
+  label: Home selector 2 icon
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_2_button
+  label: Home selector 2 button
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_2_button_link
+  label: Home selector 2 button link
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_3_heading
+  label: Home selector 3 heading
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_3_text
+  label: Home selector 3 text
+  type: textarea
+  hidden: false
+  default: ''
+- name: home_selector_3_icon
+  label: Home selector 3 icon
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_3_button
+  label: Home selector 3 button
+  type: text
+  hidden: false
+  default: ''
+- name: home_selector_3_button_link
+  label: Home selector 3 button link
+  type: text
+  hidden: false
+  default: ''
