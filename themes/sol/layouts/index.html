@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
   {{ partial "head.html" . }}
-  
+
 <body>
     {{ partial "block/nav/transparent-white.html" . }}
     {{ partial "section/home/hero.html" . }}
@@ -19,6 +19,7 @@
 
     {{ partial "section/home/ticks.html" . }}
     {{ partial "section/home/reviews.html" . }}
+    {{ partial "section/maps.html" . }}
 
     {{ partial "block/footer/footer-black-2.html" . }}
     {{ partial "js.html" . }}
