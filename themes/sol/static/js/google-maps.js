@@ -4,9 +4,9 @@
 
     // Map 1
     function initMap() {
-        var uluru = {lat: 34.0958938, lng: -118.3266425}; // CHANGE COORDINATES HERE // // CHANGE COORDINATES HERE //     
+        var uluru = {lat: 34.7595978, lng: 32.41950900000006}; // CHANGE COORDINATES HERE // // CHANGE COORDINATES HERE //
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
+            zoom: 17,
             center: uluru,
             scrollwheel: false,
             draggable: true
@@ -20,5 +20,3 @@
         });
         infowindow.open(map,marker);
     }
-
-
